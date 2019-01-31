@@ -18,7 +18,7 @@ Do you want to create it?
 SPEC_TEMPLATE = """\
 require "spec_helper"
 RSpec.describe  do
-  describe '' do
+  describe "" do
     it do
     end
   end
@@ -30,7 +30,7 @@ RAILS_SPEC_TEMPLATE = """\
 require "rails_helper"
 
 RSpec.describe  do
-  describe '' do
+  describe "" do
     it do
     end
   end
