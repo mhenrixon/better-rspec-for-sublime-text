@@ -16,7 +16,10 @@ Do you want to create it?
 """
 
 SPEC_TEMPLATE = """\
+# frozen_string_literal: true
+
 require "spec_helper"
+
 RSpec.describe  do
   describe "" do
     it do
@@ -27,6 +30,8 @@ end
 """
 
 RAILS_SPEC_TEMPLATE = """\
+# frozen_string_literal: true
+
 require "rails_helper"
 
 RSpec.describe  do
